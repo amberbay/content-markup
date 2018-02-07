@@ -7,10 +7,27 @@ selector {
 */
 
 mark {
-background-color: pink;
+background-color: cyan; /*default is yellow */
 }
-/* class selector */
 
-.redlining {
-    color: red;
+/* Black to White, with grayscale inbetween
+0123456789abcdef
+*/
+
+ins{
+  color: #999;
+}
+
+/* --- class selector --- */
+
+.underline {
+    text-decoration: underline;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.small-caps {
+  font-variant: small-caps;
 }
